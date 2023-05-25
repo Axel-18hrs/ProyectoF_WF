@@ -16,7 +16,7 @@ namespace ProyectoF_WF
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new fmBeginning());
+            Application.Run(new Beginning());
         }
     }
 }
