@@ -12,14 +12,13 @@ namespace ProyectoF_WF.Classes
 
         public User() 
         {
-            // Id = Guid.NewGuid();et
+            // Id = Guid.NewGuid();etA
             DateTime now = DateTime.Now;
             DateTime trimmedDateTime = new DateTime(now.Year, now.Month, now.Day, now.Hour, 0, 0);
             Registration_Date = trimmedDateTime;
         }
         public virtual void Deff()
         {
-            Console.WriteLine("user");
         }
     }
 }

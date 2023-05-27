@@ -31,7 +31,7 @@ namespace ProyectoF_WF
                 // Leer el contenido del archivo JSON
                 string json = File.ReadAllText(jsonFilePath);
 
-                // Deserializar el JSON y agregar los datos a la lista
+                // Deserializar el JSON y agregar los datos a la listaA
                 ConcreteUser userData = JsonConvert.DeserializeObject<ConcreteUser>(json);
                 userDataList.Add(userData);
             }

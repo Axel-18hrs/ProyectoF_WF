@@ -36,7 +36,7 @@ namespace ProyectoF_WF.Classes
         {
             Administrator _admin = ClientManager.AdministratorInstance;
 
-            // Check if the selected file is a valid image or video fileet
+            // Check if the selected file is a valid image or video fileetA
             if (!(_imageExtensions.Union(_videoExtensions).Contains(Path.GetExtension(file).ToLower())))
             {
                 MessageBox.Show("The selected file is not a valid image or video file.");

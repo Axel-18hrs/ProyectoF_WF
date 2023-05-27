@@ -204,7 +204,7 @@ namespace ProyectoF_WF
 
             if (userFilePaths.Length > 0)
             {
-                // Only consider the first matching JSON fileet
+                // Only consider the first matching JSON fileetA
                 string userFilePath = userFilePaths[0];
 
                 // Load the content of the JSON file

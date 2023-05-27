@@ -10,7 +10,6 @@ namespace ProyectoF_WF.Classes
     {
         public override void Deff()
         {
-            // et
             Console.WriteLine(Name);
         }
     }

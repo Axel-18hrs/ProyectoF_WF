@@ -57,6 +57,10 @@ namespace ProyectoF_WF
                 // Obtener las rutas de videos
                 videoPaths = _administrator.VideoPaths;
             }
+            FormBase1 = new Form();
+            openFileDialog = new OpenFileDialog();
+            imagePaths = new List<string>();
+            videoPaths = new List<string>();
            
            
             CargarVideos();
